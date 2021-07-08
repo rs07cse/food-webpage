@@ -115,3 +115,24 @@ h6 {
 .Menu-item img {
   width: 100%;
 }
+
+.fifth-part {
+  box-shadow: 10px 10px 10px 2px cornflowerblue;
+  margin-left: 3%;
+  margin-right: 3%;
+
+  padding-left: 5%;
+}
+
+.fifth-part-text {
+  margin-left: 25%;
+  margin-right: 30%;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(25, 86, 199);
+  padding-top: 8%;
+  margin-top: 30%;
+}
