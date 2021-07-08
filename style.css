@@ -1,9 +1,13 @@
 body {
   font-family: "Otomanopee One", sans-serif;
+  margin: 0px;
 }
 
 .blue-color {
   color: dodgerblue;
+}
+.white-color {
+  color: white;
 }
 
 h1 {
@@ -14,14 +18,19 @@ p {
   color: rgb(43, 156, 231);
   font-size: small;
 }
-section {
+
+.text-color {
+  color: white;
+}
+
+.flexible-container {
   display: flex;
+  margin-bottom: 150px;
 }
 
 .half-width {
   width: 50%;
   padding-left: 10%;
-  padding-top: 15%;
 }
 
 .half-width img {
@@ -29,12 +38,40 @@ section {
   padding-right: 40%;
 }
 
+.image-size {
+  width: 35%;
+}
+
+.text-size {
+  font-size: xx-large;
+  padding-left: 30%;
+}
+
 .link-button {
   text-decoration: none;
   color: white;
   font-weight: 600;
   padding: 10px 15px;
-
   border-radius: 5px;
   background-image: linear-gradient(rgb(147, 185, 228), rgb(50, 147, 226));
+}
+
+.link-button-two {
+  text-decoration: none;
+  color: white;
+  font-size: 40%;
+  padding: 5px 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgb(147, 185, 228), rgb(50, 147, 226));
+}
+
+.second-part {
+  background-image: url(images/bk.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.first-part {
+  background-image: none;
 }
